@@ -62,3 +62,12 @@ class Clock implements IClock {
 
 // интерфейс для обьекта с динамическими ключами
 
+interface Styles {
+    [key: string]: string
+}
+
+const css: Styles = {
+    border: '1px solid black',
+    marginTop: '2px',
+    borderRadius: '5px'
+}
